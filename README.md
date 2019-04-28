@@ -4,6 +4,16 @@
 
 # Update threads
 
+## April 23, 2019 Update
+
+###### Redux added
+
+###### Comment feature added
+
+###### UI for like:dislike ratio added
+
+###### Common components added for scalability
+
 ## April 22, 2019 Update
 
 ###### CRUD features added

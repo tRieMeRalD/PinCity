@@ -69,7 +69,7 @@ public class PostController {
     }
 
     /*
-     * Route: /posts/:id Status: PUBLIC FUNC: View post by id
+     * Route: /posts/:id Status: PUBLIC FUNC: Delete post by id
      */
     // TODO ~ MAKE PRIVATE
     @RequestMapping(method = RequestMethod.DELETE, value = "/posts/{id}")
