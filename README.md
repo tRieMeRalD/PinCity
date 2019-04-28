@@ -4,7 +4,13 @@
 
 # Update threads
 
-## April 23, 2019 Update
+## April 28, 2019 Update
+
+###### Adding functionality to the comment thread
+
+###### Working on like:dislike button functions
+
+## April 27, 2019 Update
 
 ###### Redux added
 
