@@ -17,17 +17,16 @@ public class CommentController {
     @Autowired
     CommentRepository commentRepository;
 
-    @RequestMapping(method = RequestMethod.GET, value = "/comments/{id}/{commentId}")
-    /*
-     * public Iterable<Comment> comment() {
-     * 
-     * return commentRepository.findAll(); }
-     */
-    public Optional<Comment> show(@PathVariable String id) {
-        Optional<Comment> c = commentRepository.findById(id);
-        Comment co = c.get();
-
+    @RequestMapping(method = RequestMethod.GET, value = "/comments/{id}")
+    public Iterable<Comment> comment() {
+        return commentRepository.findAll();
     }
+    /*
+     * public Optional<Comment> show(@PathVariable String id) { Optional<Comment> c
+     * = commentRepository.findById(id); Comment co = c.get();
+     * 
+     * }
+     */
 
     @RequestMapping(method = RequestMethod.POST, value = "/comments/{id}")
     public Comment save(@RequestBody Comment comment) {
@@ -45,5 +44,14 @@ public class CommentController {
         commentRepository.save(c);
 
         return c;
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, value = "/comments/{id}")
+    public String delete(@PathVariable String id) {
+        Optional<Comment> optComment = commentRepository.findById(id);
+        Comment comment = optComment.get();
+        commentRepository.delete(comment);
+
+        return "";
     }
 }

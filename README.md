@@ -8,6 +8,8 @@
 
 ###### Adding functionality to the comment thread
 
+###### Bug fix: Multiple comments can be added
+
 ###### Working on like:dislike button functions
 
 ## April 27, 2019 Update
