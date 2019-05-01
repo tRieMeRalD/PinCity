@@ -60,7 +60,7 @@ public class Comment {
     }
 
     public void setLike(int like) {
-        this.like = like;
+        this.like = like + 1;
     }
 
     public int getDislike() {

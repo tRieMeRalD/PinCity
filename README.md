@@ -4,6 +4,14 @@
 
 # Update threads
 
+## May 1, 2019 Update
+
+###### Image URL option has been added
+
+###### More UI/UX changes
+
+###### Comment section: FIXED --> comments for specific posts work
+
 ## April 30, 2019 Update
 
 ###### UI/UX Design has been changed

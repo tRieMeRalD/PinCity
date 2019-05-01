@@ -11,17 +11,17 @@ public class Post {
     String title;
     String subTitle;
     String body;
-    String image;
+    String imageURL;
 
     public Post() {
     }
 
-    public Post(String name, String title, String subTitle, String body, String image) {
+    public Post(String name, String title, String subTitle, String body, String imageURL) {
         this.name = name;
         this.title = title;
         this.subTitle = subTitle;
         this.body = body;
-        this.image = image;
+        this.imageURL = imageURL;
     }
 
     /* GETTER AND SETTER */
@@ -65,12 +65,12 @@ public class Post {
         this.body = body;
     }
 
-    public String getImage() {
-        return image;
+    public String getImageURL() {
+        return imageURL;
     }
 
-    public void setImage(String image) {
-        this.image = image;
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 
 }
