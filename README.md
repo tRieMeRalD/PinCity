@@ -4,6 +4,12 @@
 
 # Update threads
 
+## April 30, 2019 Update
+
+###### UI/UX Design has been changed
+
+###### Comment section: Still work in progress
+
 ## April 28, 2019 Update
 
 ###### Adding functionality to the comment thread
